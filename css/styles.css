@@ -1,0 +1,214 @@
+
+
+#title{
+    background-color: #362222;
+    background-image: url(https://makcreates.com/wp-content/uploads/2018/03/black-background-mak-creates-web-design-services-1500-2500.jpg);
+    text-align: center;
+    
+    
+}
+.container{
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: rgb(2, 17, 17)
+
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+    
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#navbarNav{
+    padding-left: 400px;
+}
+.nav-item{
+    padding: 0 29px;
+}
+
+
+/* DOWNLOAD BUTTONS */
+
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+.title-img{
+    width:30%;
+    transform: rotate();
+    position: absolute;
+    right: 15%;;   
+    border-radius: 100%;
+}
+
+/* FEATURES */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-img{
+    font-size:smaller
+}
+.container{
+    
+}
+
+.card{
+   
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+}
+p{
+    
+    color: gray;
+}
+
+.fas{
+    color: #040303;
+    
+    font-size:medium;
+    
+}
+
+.fas:hover{
+    color: #FFC600;
+}
+
+/* Testimonial */
+
+#testimonials{
+   
+    text-align: center;
+    padding: 7% 15%;
+    color: rgb(0, 0, 0);
+    background-image: url(https://makcreates.com/wp-content/uploads/2018/03/black-background-mak-creates-web-design-services-1500-2500.jpg);
+    
+}
+.skills{
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h4{
+    color:#fff;
+    text-align: center;
+    font-size:3rem;
+}
+.testimonial-img{
+    border-radius: 100%;
+    padding: 5%;
+    width: 30%;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    
+    text-align: center;
+    padding: 7% 15%;
+    
+    color: #fff;
+    font-size: medium;
+    background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png);
+    
+}
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+
+
+
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-coloumn {
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #362222;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+
+
+.cta-heading{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon{
+    
+    margin:20px 10px;
+    font-size: 2rem;
+
+}
+
+
+
+@media(max-width:1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+
+    }
+
+    #title{
+        text-align: center;
+    }
+
+
+}
